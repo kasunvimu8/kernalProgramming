@@ -141,6 +141,8 @@ int main(int argc, char **argv)
 	// TODO: ** insert your code here **
 		close(pipe2[0]);
 		close(pipe2[1]);
+		
+	
 
 }
 
