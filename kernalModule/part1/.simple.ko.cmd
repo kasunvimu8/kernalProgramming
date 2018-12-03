@@ -1,0 +1,1 @@
+cmd_/home/kasun/Desktop/Acadamic/project/part1/simple.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/kasun/Desktop/Acadamic/project/part1/simple.ko /home/kasun/Desktop/Acadamic/project/part1/simple.o /home/kasun/Desktop/Acadamic/project/part1/simple.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/kasun/Desktop/Acadamic/project/part2/birthday.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/kasun/Desktop/Acadamic/project/part2/birthday.ko /home/kasun/Desktop/Acadamic/project/part2/birthday.o /home/kasun/Desktop/Acadamic/project/part2/birthday.mod.o ;  true
