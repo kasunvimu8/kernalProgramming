@@ -1,0 +1,1 @@
+cmd_/home/kasun/Desktop/Acadamic/project/project2part2/shell.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/kasun/Desktop/Acadamic/project/project2part2/shell.ko /home/kasun/Desktop/Acadamic/project/project2part2/shell.o /home/kasun/Desktop/Acadamic/project/project2part2/shell.mod.o ;  true

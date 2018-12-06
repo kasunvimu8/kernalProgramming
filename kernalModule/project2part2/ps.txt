@@ -1,0 +1,397 @@
+UID        PID  PPID   LWP  C NLWP STIME TTY          TIME CMD
+root         1     0     1  0    1 21:15 ?        00:00:02 /sbin/init splash
+root         2     0     2  0    1 21:15 ?        00:00:00 [kthreadd]
+root         4     2     4  0    1 21:15 ?        00:00:00 [kworker/0:0H]
+root         5     2     5  0    1 21:15 ?        00:00:00 [kworker/u2:0]
+root         6     2     6  0    1 21:15 ?        00:00:00 [mm_percpu_wq]
+root         7     2     7  0    1 21:15 ?        00:00:00 [ksoftirqd/0]
+root         8     2     8  0    1 21:15 ?        00:00:00 [rcu_sched]
+root         9     2     9  0    1 21:15 ?        00:00:00 [rcu_bh]
+root        10     2    10  0    1 21:15 ?        00:00:00 [migration/0]
+root        11     2    11  0    1 21:15 ?        00:00:00 [watchdog/0]
+root        12     2    12  0    1 21:15 ?        00:00:00 [cpuhp/0]
+root        13     2    13  0    1 21:15 ?        00:00:00 [kdevtmpfs]
+root        14     2    14  0    1 21:15 ?        00:00:00 [netns]
+root        15     2    15  0    1 21:15 ?        00:00:00 [rcu_tasks_kthre]
+root        16     2    16  0    1 21:15 ?        00:00:00 [kauditd]
+root        17     2    17  0    1 21:15 ?        00:00:00 [khungtaskd]
+root        18     2    18  0    1 21:15 ?        00:00:00 [oom_reaper]
+root        19     2    19  0    1 21:15 ?        00:00:00 [writeback]
+root        20     2    20  0    1 21:15 ?        00:00:00 [kcompactd0]
+root        21     2    21  0    1 21:15 ?        00:00:00 [ksmd]
+root        22     2    22  0    1 21:15 ?        00:00:00 [khugepaged]
+root        23     2    23  0    1 21:15 ?        00:00:00 [crypto]
+root        24     2    24  0    1 21:15 ?        00:00:00 [kintegrityd]
+root        25     2    25  0    1 21:15 ?        00:00:00 [kblockd]
+root        26     2    26  0    1 21:15 ?        00:00:00 [ata_sff]
+root        27     2    27  0    1 21:15 ?        00:00:00 [md]
+root        28     2    28  0    1 21:15 ?        00:00:00 [edac-poller]
+root        29     2    29  0    1 21:15 ?        00:00:00 [devfreq_wq]
+root        30     2    30  0    1 21:15 ?        00:00:00 [watchdogd]
+root        31     2    31  0    1 21:15 ?        00:00:00 [kworker/u2:1]
+root        32     2    32  0    1 21:15 ?        00:00:00 [kworker/0:1]
+root        34     2    34  0    1 21:15 ?        00:00:00 [kswapd0]
+root        35     2    35  0    1 21:15 ?        00:00:00 [ecryptfs-kthrea]
+root        77     2    77  0    1 21:15 ?        00:00:00 [kthrotld]
+root        78     2    78  0    1 21:15 ?        00:00:00 [acpi_thermal_pm]
+root        80     2    80  0    1 21:15 ?        00:00:00 [scsi_eh_0]
+root        81     2    81  0    1 21:15 ?        00:00:00 [scsi_tmf_0]
+root        82     2    82  0    1 21:15 ?        00:00:00 [scsi_eh_1]
+root        83     2    83  0    1 21:15 ?        00:00:00 [scsi_tmf_1]
+root        84     2    84  0    1 21:15 ?        00:00:00 [kworker/u2:3]
+root        85     2    85  0    1 21:15 ?        00:00:00 [ipv6_addrconf]
+root        95     2    95  0    1 21:15 ?        00:00:00 [kstrp]
+root       112     2   112  0    1 21:15 ?        00:00:00 [charger_manager]
+root       113     2   113  0    1 21:15 ?        00:00:00 [kworker/0:2]
+root       151     2   151  0    1 21:15 ?        00:00:00 [scsi_eh_2]
+root       152     2   152  0    1 21:15 ?        00:00:00 [scsi_tmf_2]
+root       153     2   153  0    1 21:15 ?        00:00:00 [ttm_swap]
+root       155     2   155  0    1 21:15 ?        00:00:00 [kworker/0:1H]
+root       175     2   175  0    1 21:15 ?        00:00:00 [jbd2/sda1-8]
+root       176     2   176  0    1 21:15 ?        00:00:00 [ext4-rsv-conver]
+root       216     1   216  0    1 21:15 ?        00:00:00 /lib/systemd/systemd-journald
+root       235     1   235  0    1 21:15 ?        00:00:00 /lib/systemd/systemd-udevd
+root       245     2   245  0    1 21:15 ?        00:00:00 [loop0]
+root       246     2   246  0    1 21:15 ?        00:00:00 [loop1]
+root       247     2   247  0    1 21:15 ?        00:00:00 [loop2]
+systemd+   301     1   301  0    1 21:15 ?        00:00:00 /lib/systemd/systemd-resolved
+root       320     2   320  0    1 21:15 ?        00:00:00 [iprt-VBoxWQueue]
+root       474     1   474  0    1 21:15 ?        00:00:00 /usr/sbin/cron -f
+root       475     1   475  0    1 21:15 ?        00:00:00 /usr/sbin/acpid
+root       478     1   478  0    1 21:15 ?        00:00:00 /lib/systemd/systemd-logind
+root       491     1   491  0    8 21:15 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   582  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   583  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   588  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   620  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   621  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   644  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       491     1   670  0    8 21:16 ?        00:00:00 /usr/lib/snapd/snapd
+root       492     1   492  0    5 21:15 ?        00:00:00 /usr/lib/udisks2/udisksd
+root       492     1   510  0    5 21:16 ?        00:00:00 /usr/lib/udisks2/udisksd
+root       492     1   556  0    5 21:16 ?        00:00:00 /usr/lib/udisks2/udisksd
+root       492     1   581  0    5 21:16 ?        00:00:00 /usr/lib/udisks2/udisksd
+root       492     1   591  0    5 21:16 ?        00:00:00 /usr/lib/udisks2/udisksd
+root       497     1   497  0    3 21:16 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       497     1   515  0    3 21:16 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       497     1   557  0    3 21:16 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       502     1   502  0    2 21:16 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       502     1   635  0    2 21:16 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog     503     1   503  0    4 21:16 ?        00:00:00 /usr/sbin/rsyslogd -n
+syslog     503     1   536  0    4 21:16 ?        00:00:00 /usr/sbin/rsyslogd -n
+syslog     503     1   537  0    4 21:16 ?        00:00:00 /usr/sbin/rsyslogd -n
+syslog     503     1   538  0    4 21:16 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       504     1   504  0    3 21:16 ?        00:00:00 /usr/sbin/ModemManager
+root       504     1   533  0    3 21:16 ?        00:00:00 /usr/sbin/ModemManager
+root       504     1   558  0    3 21:16 ?        00:00:00 /usr/sbin/ModemManager
+message+   505     1   505  0    1 21:16 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+avahi      554     1   554  0    1 21:16 ?        00:00:00 avahi-daemon: running [kasun-VirtualBox.local]
+root       555     1   555  0    1 21:16 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       559     1   559  0    3 21:16 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       559     1   623  0    3 21:16 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       559     1   628  0    3 21:16 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       560     1   560  0    1 21:16 ?        00:00:00 /usr/sbin/cupsd -l
+root       569     1   569  0    3 21:16 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       569     1   578  0    3 21:16 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       569     1   580  0    3 21:16 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      584   554   584  0    1 21:16 ?        00:00:00 avahi-daemon: chroot helper
+root       585     1   585  0    3 21:16 ?        00:00:00 /usr/sbin/cups-browsed
+root       585     1   627  0    3 21:16 ?        00:00:00 /usr/sbin/cups-browsed
+root       585     1   629  0    3 21:16 ?        00:00:00 /usr/sbin/cups-browsed
+lp         622   560   622  0    1 21:16 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp         626   560   626  0    1 21:16 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root       678     1   678  0    3 21:16 ?        00:00:00 /usr/sbin/lightdm
+root       678     1   680  0    3 21:16 ?        00:00:00 /usr/sbin/lightdm
+root       678     1   682  0    3 21:16 ?        00:00:00 /usr/sbin/lightdm
+root       691     1   691  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   692  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   693  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   694  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   695  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   696  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   697  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       691     1   698  0    8 21:16 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root       702   678   702  3    2 21:16 tty7     00:00:26 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       702   678   794  0    2 21:16 tty7     00:00:01 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       707     1   707  0    1 21:16 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+whoopsie   723     1   723  0    3 21:16 ?        00:00:00 /usr/bin/whoopsie -f
+whoopsie   723     1   746  0    3 21:16 ?        00:00:00 /usr/bin/whoopsie -f
+whoopsie   723     1   747  0    3 21:16 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops   750     1   750  0    1 21:16 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops   753     1   753  0    1 21:16 ?        00:00:00 /usr/sbin/kerneloops
+root       885   678   885  0    3 21:16 ?        00:00:00 lightdm --session-child 12 19
+root       885   678   887  0    3 21:16 ?        00:00:00 lightdm --session-child 12 19
+root       885   678   888  0    3 21:16 ?        00:00:00 lightdm --session-child 12 19
+kasun      890     1   890  0    1 21:16 ?        00:00:00 /lib/systemd/systemd --user
+kasun      891   890   891  0    1 21:16 ?        00:00:00 (sd-pam)
+kasun      904     1   904  0    4 21:16 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+kasun      904     1   905  0    4 21:16 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+kasun      904     1   906  0    4 21:16 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+kasun      904     1  1061  0    4 21:16 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+kasun      908   885   908  0    1 21:16 ?        00:00:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+kasun      925   890   925  0    1 21:16 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kasun     1001     1  1001  0    1 21:16 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+kasun     1002  1001  1002  0    2 21:16 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+kasun     1002  1001  1033  0    2 21:16 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+kasun     1011     1  1011  0    1 21:16 ?        00:00:00 /usr/bin/VBoxClient --display
+kasun     1012  1011  1012  0    1 21:16 ?        00:00:00 /usr/bin/VBoxClient --display
+kasun     1018     1  1018  0    1 21:16 ?        00:00:00 /usr/bin/VBoxClient --seamless
+kasun     1019  1018  1019  0    2 21:16 ?        00:00:00 /usr/bin/VBoxClient --seamless
+kasun     1019  1018  1020  0    2 21:16 ?        00:00:00 /usr/bin/VBoxClient --seamless
+kasun     1027     1  1027  0    1 21:16 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+kasun     1028  1027  1028  0    3 21:16 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+kasun     1028  1027  1029  0    3 21:16 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+kasun     1028  1027  1031  0    3 21:16 ?        00:00:01 /usr/bin/VBoxClient --draganddrop
+kasun     1034   908  1034  0    1 21:16 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch startxfce4
+kasun     1052   908  1052  0    3 21:16 ?        00:00:00 xfce4-session
+kasun     1052   908  1053  0    3 21:16 ?        00:00:00 xfce4-session
+kasun     1052   908  1054  0    3 21:16 ?        00:00:00 xfce4-session
+kasun     1056   890  1056  0    1 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/xfconf/xfconfd
+kasun     1063     1  1063  0    1 21:16 ?        00:00:02 xfwm4 --replace
+kasun     1067     1  1067  0    2 21:16 ?        00:00:01 xfce4-panel
+kasun     1067     1  1344  0    2 21:16 ?        00:00:00 xfce4-panel
+kasun     1069     1  1069  0    3 21:16 ?        00:00:01 Thunar --daemon
+kasun     1069     1  1426  0    3 21:16 ?        00:00:00 Thunar --daemon
+kasun     1069     1  1427  0    3 21:16 ?        00:00:00 Thunar --daemon
+kasun     1071     1  1071  0    3 21:16 ?        00:00:01 xfdesktop
+kasun     1071     1  1076  0    3 21:16 ?        00:00:00 xfdesktop
+kasun     1071     1  1077  0    3 21:16 ?        00:00:00 xfdesktop
+kasun     1073     1  1073  0    3 21:16 ?        00:00:00 xfsettingsd
+kasun     1073     1  1313  0    3 21:16 ?        00:00:00 xfsettingsd
+kasun     1073     1  1314  0    3 21:16 ?        00:00:00 xfsettingsd
+kasun     1082  1052  1082  0    4 21:16 ?        00:00:00 update-notifier
+kasun     1082  1052  1144  0    4 21:16 ?        00:00:00 update-notifier
+kasun     1082  1052  1145  0    4 21:16 ?        00:00:00 update-notifier
+kasun     1082  1052  1148  0    4 21:16 ?        00:00:00 update-notifier
+kasun     1098   890  1098  0    4 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+kasun     1098   890  1110  0    4 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+kasun     1098   890  1111  0    4 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+kasun     1098   890  1113  0    4 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+kasun     1114  1098  1114  0    1 21:16 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+kasun     1119  1052  1119  0    4 21:16 ?        00:00:01 /usr/bin/python3 /usr/bin/blueman-applet
+kasun     1119  1052  1332  0    4 21:16 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+kasun     1119  1052  1333  0    4 21:16 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+kasun     1119  1052  1341  0    4 21:16 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+kasun     1123   890  1123  0    3 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+kasun     1123   890  1128  0    3 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+kasun     1123   890  1129  0    3 21:16 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+kasun     1149   890  1149  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd
+kasun     1149   890  1152  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd
+kasun     1149   890  1155  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd
+kasun     1158   890  1158  0    6 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kasun     1158   890  1166  0    6 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kasun     1158   890  1167  0    6 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kasun     1158   890  1168  0    6 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kasun     1158   890  1170  0    6 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kasun     1158   890  1176  0    6 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kasun     1173  1052  1173  0    4 21:16 ?        00:00:00 nm-applet
+kasun     1173  1052  1257  0    4 21:16 ?        00:00:00 nm-applet
+kasun     1173  1052  1258  0    4 21:16 ?        00:00:00 nm-applet
+kasun     1173  1052  1261  0    4 21:16 ?        00:00:00 nm-applet
+kasun     1202  1052  1202  0    3 21:16 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+kasun     1202  1052  1255  0    3 21:16 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+kasun     1202  1052  1256  0    3 21:16 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+kasun     1254  1052  1254  0    2 21:16 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+kasun     1254  1052  1396  0    2 21:16 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+kasun     1260  1052  1260  0    4 21:16 ?        00:00:00 light-locker
+kasun     1260  1052  1278  0    4 21:16 ?        00:00:00 light-locker
+kasun     1260  1052  1280  0    4 21:16 ?        00:00:00 light-locker
+kasun     1260  1052  1281  0    4 21:16 ?        00:00:00 light-locker
+kasun     1271     1  1271  0    3 21:16 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+kasun     1271     1  1334  0    3 21:16 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+kasun     1271     1  1335  0    3 21:16 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+kasun     1283   890  1283  0    3 21:16 ?        00:00:00 /usr/lib/dconf/dconf-service
+kasun     1283   890  1300  0    3 21:16 ?        00:00:00 /usr/lib/dconf/dconf-service
+kasun     1283   890  1302  0    3 21:16 ?        00:00:00 /usr/lib/dconf/dconf-service
+rtkit     1305     1  1305  0    3 21:16 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+rtkit     1305     1  1309  0    3 21:16 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+rtkit     1305     1  1310  0    3 21:16 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+kasun     1308     1  1308  0    3 21:16 ?        00:00:00 xfce4-power-manager
+kasun     1308     1  1311  0    3 21:16 ?        00:00:00 xfce4-power-manager
+kasun     1308     1  1312  0    3 21:16 ?        00:00:00 xfce4-power-manager
+root      1315     1  1315  0    3 21:16 ?        00:00:00 /usr/lib/upower/upowerd
+root      1315     1  1323  0    3 21:16 ?        00:00:00 /usr/lib/upower/upowerd
+root      1315     1  1324  0    3 21:16 ?        00:00:00 /usr/lib/upower/upowerd
+kasun     1318   890  1318  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/notifyd/xfce4-notifyd
+kasun     1318   890  1319  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/notifyd/xfce4-notifyd
+kasun     1318   890  1321  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/notifyd/xfce4-notifyd
+kasun     1338  1067  1338  0    3 21:16 ?        00:00:01 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 25165862 whiskermenu Whisker Menu Show a menu to easily access installed applications
+kasun     1338  1067  1350  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 25165862 whiskermenu Whisker Menu Show a menu to easily access installed applications
+kasun     1338  1067  1351  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 25165862 whiskermenu Whisker Menu Show a menu to easily access installed applications
+kasun     1340   890  1340  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+kasun     1340   890  1345  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+kasun     1340   890  1346  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+kasun     1348  1067  1348  0    1 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-1.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libsystray.so 4 25165869 systray Notification Area Area where notification icons appear
+kasun     1349   890  1349  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+kasun     1349   890  1356  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+kasun     1349   890  1358  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+kasun     1352  1067  1352  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 5 25165870 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+kasun     1352  1067  1375  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 5 25165870 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+kasun     1352  1067  1379  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 5 25165870 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+kasun     1353  1067  1353  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libindicator-plugin.so 6 25165871 indicator Indicator Plugin Provides a panel area for Unity indicators. Indicators allow applications and system services to display their status and interact with the user.
+kasun     1353  1067  1378  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libindicator-plugin.so 6 25165871 indicator Indicator Plugin Provides a panel area for Unity indicators. Indicators allow applications and system services to display their status and interact with the user.
+kasun     1353  1067  1382  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libindicator-plugin.so 6 25165871 indicator Indicator Plugin Provides a panel area for Unity indicators. Indicators allow applications and system services to display their status and interact with the user.
+kasun     1354  1067  1354  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 7 25165872 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
+kasun     1354  1067  1377  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 7 25165872 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
+kasun     1354  1067  1380  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 7 25165872 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
+kasun     1355  1067  1355  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 8 25165873 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+kasun     1355  1067  1376  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 8 25165873 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+kasun     1355  1067  1381  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 8 25165873 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+kasun     1359  1067  1359  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 9 25165874 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+kasun     1359  1067  1384  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 9 25165874 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+kasun     1359  1067  1385  0    3 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 9 25165874 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+kasun     1360   890  1360  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+kasun     1360   890  1361  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+kasun     1360   890  1363  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+kasun     1364   890  1364  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+kasun     1364   890  1365  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+kasun     1364   890  1366  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+kasun     1368   890  1368  0    4 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+kasun     1368   890  1369  0    4 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+kasun     1368   890  1370  0    4 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+kasun     1368   890  1372  0    4 21:16 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+kasun     1386  1149  1386  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+kasun     1386  1149  1387  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+kasun     1386  1149  1388  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+kasun     1392   890  1392  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+kasun     1392   890  1394  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+kasun     1392   890  1395  0    3 21:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+kasun     1405   890  1405  0    4 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+kasun     1405   890  1406  0    4 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+kasun     1405   890  1408  0    4 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+kasun     1405   890  1409  0    4 21:16 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+kasun     1438   890  1438  0    1 21:17 ?        00:00:00 /usr/lib/bluetooth/obexd
+kasun     1444     1  1444  0    3 21:17 ?        00:00:06 /usr/bin/xfce4-terminal
+kasun     1444     1  1445  0    3 21:17 ?        00:00:00 /usr/bin/xfce4-terminal
+kasun     1444     1  1446  0    3 21:17 ?        00:00:00 /usr/bin/xfce4-terminal
+kasun     1448  1444  1448  0    1 21:17 pts/0    00:00:00 bash
+kasun     1576     1  1576  0    8 21:20 ?        00:00:04 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1589  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1591  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1592  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1593  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1594  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1598  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1576     1  1600  0    8 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/sublime_text /home/kasun/Desktop/Acadamic/project/project2part2/shell2.c
+kasun     1599  1576  1599  0    3 21:20 ?        00:00:01 /snap/sublime-text/37/opt/sublime_text/plugin_host 1576 --auto-shell-env
+kasun     1599  1576  1601  0    3 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/plugin_host 1576 --auto-shell-env
+kasun     1599  1576  1602  0    3 21:20 ?        00:00:00 /snap/sublime-text/37/opt/sublime_text/plugin_host 1576 --auto-shell-env
+kasun     1839     1  1839  5   51 21:23 ?        00:00:17 /usr/lib/firefox/firefox
+kasun     1839     1  1844  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1845  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1846  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1847  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1848  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1849  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1850  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1851  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1852  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1853  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1854  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1856  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1857  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1861  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1862  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1863  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1864  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1865  1   51 21:23 ?        00:00:05 /usr/lib/firefox/firefox
+kasun     1839     1  1866  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1867  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1868  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1873  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1874  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1878  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1879  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1880  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1889  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1890  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1891  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1895  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1896  1   51 21:23 ?        00:00:04 /usr/lib/firefox/firefox
+kasun     1839     1  1898  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1899  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1916  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1917  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1922  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1923  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1924  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1927  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1933  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1942  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1948  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1966  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1967  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1988  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1996  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  1999  0   51 21:23 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  2031  0   51 21:25 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  2041  0   51 21:28 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1839     1  2042  3   51 21:28 ?        00:00:00 /usr/lib/firefox/firefox
+kasun     1881  1839  1881  2   17 21:23 ?        00:00:08 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1884  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1885  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1886  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1887  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1888  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1892  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1893  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1901  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1902  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1903  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1904  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1905  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1906  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1907  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1921  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1881  1839  1982  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1908  0   17 21:23 ?        00:00:01 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1911  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1912  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1913  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1914  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1915  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1918  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1919  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1925  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1926  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1928  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1929  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1930  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1931  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1932  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1950  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1908  1839  1973  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 79 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1934  4   17 21:23 ?        00:00:13 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1937  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1938  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1939  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1940  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1941  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1943  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1944  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1959  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1960  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1961  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1962  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1963  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1964  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1965  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1969  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1934  1839  1974  0   17 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 4096 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1986  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1990  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1992  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1993  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1994  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1995  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1997  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  1998  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2000  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2001  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2002  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2003  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2004  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2005  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+kasun     1986  1839  2006  0   15 21:23 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 4840 -prefMapSize 169833 -schedulerPrefs 0001,2 -parentBuildID 20181116154756 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1839 true tab
+root      2013   559  2013  0    1 21:25 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-b4b87378-3e79-3ad6-aeba-fb097a87c9ee-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+kasun     2043  1448  2043  0    1 21:28 pts/0    00:00:00 ps -eLf
