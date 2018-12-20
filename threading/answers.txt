@@ -1,0 +1,240 @@
+Exercise 1
+------------
+1).a)Done
+   b).That command when we executing when compiling will tell to the compiler that execute program with pthread.h libraries.Otherwise program will throw an
+   error. 
+
+Exercise 2	
+------------
+1).a).it will create 8 processes including its parent process.
+
+   b).it will create 3 threads.
+	because in fork we create different processes.they working as individuals.(child processes).then they again produce childs.
+	finallay all chils will be 2^3.
+	but in threads,they work within single processes but in concurrent manner. therefor it will be 3 threads.
+
+
+Exercise 3
+-------------	
+1).a).in main loop at i=0 thread will create and args take argument in &count is cast as (int *) hence in the thread function first value
+ will be printled as [ *(int *)arg, a = 1 1 ] it goes 3 times in the loop and after start the next thread.because one  thread  calls  join
+  on  another,  the  first  thread  waits  until  the  other  threads  finishes  execution  to continue.same process continue five time like wise 
+but each time the ags value is increment by one.
+	
+    b).it increase the value of ars by one with in the function call.
+    c).you just increae the value in the function call. (*(int *)arg)++;
+
+2).
+	output :
+
+	kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+	Main thread says hi!
+	kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ 
+
+	it execute only the main thread.because the main thread run first and it execute without waiting until others.therefore after mai  thread execte other programs will abort.hence we cant see any output from the thread call function.
+
+	a).
+	 comment out line 12 sleep 
+	 ountput :
+	 	kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+		Main thread says hi!
+		kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ 
+
+
+	again the comment out sleep in the thread call function hence no different between above one.same output.
+	
+
+	 comment out line 35 sleep 
+	 ountput :
+
+		kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+		Thread 1:1 says hi!
+		Thread 1:2 says hi!
+		Thread 1:3 says hi!
+		Thread 2:1 says hi!
+		Thread 2:2 says hi!
+		Thread 2:3 says hi!
+		Thread 3:1 says hi!
+		Thread 3:2 says hi!
+		Thread 3:3 says hi!
+		Thread 4:1 says hi!
+		Thread 4:2 says hi!
+		Thread 4:3 says hi!
+		Thread 5:1 says hi!
+		Thread 5:2 says hi!
+		Thread 5:3 says hi!
+		Main thread says hi!
+
+		Then the required output will deplay because we are putting 1ms delay after creating the threads.so the calling thread functions have enough time
+		to work in the function.so the required output can be obseverved.
+
+	 comment out line 38 sleep 
+	 ountput :
+
+	 	kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+		Thread 1:1 says hi!
+		Thread 1:2 says hi!
+		Thread 1:3 says hi!
+		Thread 1:1 says hi!
+		Thread 2:2 says hi!
+		Thread 2:3 says hi!
+		Thread 1:1 says hi!
+		Thread 3:2 says hi!
+		Thread 3:3 says hi!
+		Thread 4:1 says hi!
+		Thread 4:2 says hi!
+		Thread 4:3 says hi!
+		Thread 5:1 says hi!
+		Thread 5:2 says hi!
+		Thread 5:3 says hi!
+		Main thread says hi!
+
+	As we can see in the output there will be 15 output but the values may get wrong because even though the main thread waits some time for other threads to complete then  values may be different when printing. 
+
+	b).
+	 comment out line 35 ,38 sleep 
+	 ountput :
+
+		 kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+		Thread 1:1 says hi!
+		Thread 1:2 says hi!
+		Thread 1:3 says hi!
+		Thread 2:1 says hi!
+		Thread 2:2 says hi!
+		Thread 2:3 says hi!
+		Thread 3:1 says hi!
+		Thread 3:2 says hi!
+		Thread 3:3 says hi!
+		Thread 4:1 says hi!
+		Thread 4:2 says hi!
+		Thread 4:3 says hi!
+		Thread 5:1 says hi!
+		Thread 5:2 says hi!
+		Thread 5:3 says hi!
+		Main thread says hi!
+
+	since the condition that main thread is waiting (line 38 comment) and threds are created with 1 ms , the required output can be obseverd.
+
+	comment out line 35 ,12 sleep 
+	ountput :
+
+		kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+		Thread 1:1 says hi!
+		Thread 1:2 says hi!
+		Thread 1:3 says hi!
+		Thread 2:1 says hi!
+		Thread 2:2 says hi!
+		Thread 2:3 says hi!
+		Thread 3:1 says hi!
+		Thread 3:2 says hi!
+		Thread 3:3 says hi!
+		Thread 4:1 says hi!
+		Thread 4:2 says hi!
+		Thread 4:3 says hi!
+		Thread 5:1 says hi!
+		Thread 5:2 says hi!
+		Thread 5:3 says hi!
+		Main thread says hi!
+
+	Even i got the required output there may be chances that it will not what we expect.because even the therad create function have some delays 
+	that delay may not be enogh for execute the thread function.if that happen the values will be diffrent.that can seen by if we incrase the delay in thread function.
+
+	comment out line 35 ,12 sleep 
+	ountput :
+
+		kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+		Thread 1:1 says hi!
+		Thread 1:1 says hi!
+		Thread 1:1 says hi!
+		Thread 1:1 says hi!
+		Thread 1:1 says hi!
+		Thread 1:2 says hi!
+		Thread 1:2 says hi!
+		Thread 1:2 says hi!
+		Thread 1:2 says hi!
+		Thread 1:2 says hi!
+		Thread 1:3 says hi!
+		Thread 1:3 says hi!
+		Thread 1:3 says hi!
+		Thread 1:3 says hi!
+		Thread 1:3 says hi!
+		Main thread says hi!
+
+		output will be diffrent because the all 5 threads start execute concurrently.but main thread is waiting.hence we can start 15 outputs.
+
+
+  c).
+
+  uncomment all sleep
+  output :
+
+	  kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+	Thread 1:1 says hi!
+	Thread 1:2 says hi!
+	Thread 1:1 says hi!
+	Thread 1:3 says hi!
+	Thread 1:2 says hi!
+	Thread 1:1 says hi!
+	Thread 1:1 says hi!
+	Thread 2:3 says hi!
+	Thread 2:2 says hi!
+	Thread 2:3 says hi!
+	Thread 3:2 says hi!
+	Thread 3:1 says hi!
+	Thread 4:3 says hi!
+	Thread 4:2 says hi!
+	Thread 5:3 says hi!
+	Main thread says hi!
+
+ since we have time delay when executing the thread function values may be diffrent in ars.but we can still get 15 output because main thread doesn't 
+ for 5 ms.
+ 
+  change the sleep 5ms to 1ms
+  output :
+
+	  kasun@kasun-VirtualBox:~/Desktop/Acadamic/co 327 lab3/Lab03$ ./a
+	Thread 1:1 says hi!
+	Thread 1:2 says hi!
+	Thread 1:1 says hi!
+	Thread 1:3 says hi!
+	Thread 1:2 says hi!
+	Thread 1:1 says hi!
+	Thread 2:3 says hi!
+	Thread 2:2 says hi!
+	Thread 2:1 says hi!
+	Thread 3:3 says hi!
+	Thread 3:2 says hi!
+	Thread 3:1 says hi!
+	Thread 4:3 says hi!
+	Thread 4:2 says hi!
+	Main thread says hi!
+
+  yes.As we can see in the output the values are different because the problem happen not because of main thread execution.so the changing the values to the 1ms
+  doesnt affect here when we have sleep in the line 35.but if main thread may execute first sometimes.then the output may change.
+
+
+
+3).     sleep(): This method causes the currently executing thread to sleep for the specified number of milliseconds, subject to the precision and
+	 accuracy of system timers and schedulers. The join() method of a Thread instance is used to join the start of a thread’s execution to end of 
+	other thread’s execution such that a thread does not start running until another thread ends. If join() is called on a Thread instance, the 
+	currently running thread will block until the Thread instance has finished executing.The join() method waits at most this much milliseconds
+	for this thread to die. A timeout of 0 means to wait forever.Join is not keeping the cpu isolated for some time and it is not depend on the cpu sheduling
+	criteria.
+
+
+Exercise 4
+-------------  
+
+4).1).DONE
+   2).
+
+	If you use local variable, it will be initialized in main thread's stack. It would be safe to pass the address of that variable to respective 
+	threads as main thread's stack variables lifetime will obviously be long enough. But the problem in doing so is you are updating the fd value 
+	everytime in while(1) in the same local variable which will make every thread to use that resulting in undefined behavior.
+
+	You will have to allocate new variable either in heap or stack for each thread for this reason so that each thread should be able to read correct
+	fd value without any ambiguity.
+
+
+
+   
